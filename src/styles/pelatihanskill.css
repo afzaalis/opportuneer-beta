@@ -1,0 +1,153 @@
+.pelatihan-skill-container {
+    display: flex;
+    width: 1145px;
+    height: auto;
+    padding: 20px;
+    margin-left: 100px;
+    border-radius: 30px;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.search-filter {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.search-container {
+    position: relative; 
+    width: 80%; 
+}
+
+.search-container input::placeholder {
+    text-align: left; 
+    padding-left: 40px; 
+    color: #ccc; 
+}
+
+
+.search-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%); 
+    width: 20px; 
+    height: 20px;
+}
+
+.search-bar {
+    width: 100%;
+    padding: 10px 10px 10px 40px; 
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.filter-btn {
+    background-color: #263D8F;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    font-size: 21px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 155px;
+}
+
+
+.training-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.training-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    border: 1px solid black;
+}
+
+.training-info {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; 
+}
+
+.training-meta {
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+    justify-content: flex-end; 
+    flex-grow: 0;
+}
+
+.training-logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+
+.training-info h2 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+
+
+.minat-btn {
+    background-color: #263D8F;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 25px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 490px;
+    margin: 40px auto 0 auto; 
+    text-decoration: underline;
+}
+
+
+.back-btn-container {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.back-btn-img {
+    cursor: pointer;
+    display: flex;
+    margin: auto;
+}
+
+
+.training-detail h2 {
+    text-align: center;
+}
+
+.material-item {
+    border: 1px solid black;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.material-list h4{
+}

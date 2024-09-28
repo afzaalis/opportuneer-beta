@@ -1,0 +1,108 @@
+/* Main container for the content excluding the sidebar */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 1145px;
+  height: 100vh;
+  margin-left: 300px;
+  margin-top: 100px;
+}
+
+/* Search and filter section */
+.search-filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  border: solid 1px black;
+}
+
+/* Profile and FAQ container (side by side) */
+.profile-faq-container {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+/* Profile section */
+.profile-section {
+  background-color: white;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: solid 1px black;
+  max-width: 650px;
+  gap: 50px;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  width: 100%;
+}
+
+.profile-picture img {
+  height: 172px;
+  width: 172px;
+}
+
+.edit-profile-btn button {
+  width: 590px;
+  height: 66px;
+  background-color: #263D8F;
+  color: white;
+  border-radius: 15px;
+  font-size: 21px;
+}
+
+/* FAQ section */
+.faq-section {
+  flex: 1;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border: solid 1px black;
+}
+
+/* Upcoming class section */
+.upcoming-class {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 10px;
+  border: solid 1px black;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  align-items: center;
+}
+
+.upcoming-class h3 {
+  font-size: 21px;
+}
+
+.upcoming-class img {
+  width: 100%;
+}
+
+/* Responsive adjustments */
+/* @media (max-width: 768px) {
+  .profile-faq-container {
+    flex-direction: column;
+  }
+
+  .main-container {
+    padding: 10px;
+  }
+
+  .upcoming-class {
+    flex-direction: column;
+  }
+} */

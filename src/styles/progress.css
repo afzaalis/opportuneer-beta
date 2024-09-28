@@ -1,0 +1,184 @@
+.container-barOpsi {
+    margin-left: 380px; 
+    padding: 20px;
+    width: calc(100% - 380px); 
+    display: flex;
+    gap: 20px;
+}
+
+.tesMinatBar,
+.pelatihanBar,
+.pencariLowonganBar {
+    width: 358px;             
+    height: auto;            
+    background-color: white;  
+    border: 1px solid black;  
+    border-radius: 30px;      
+    padding: 20px;
+    top: 50px;                
+    box-sizing: border-box;
+    text-align: center;   
+}
+
+.container-barOpsi img {
+    margin-top: 20px;
+}
+
+.hasilTesBar {
+    margin-top: 40px;
+}
+
+.deskripsiHasilTes {
+    width: 100%; 
+    height: auto; 
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; 
+    gap: 10px; 
+    box-sizing: border-box;
+}
+
+
+.hasilTes {
+    display: flex;
+    flex-direction: row; 
+    gap: 20px; 
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+}
+
+.hasilTes div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.hasilTes div img {
+    width: 50px; 
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.titleHasilTes {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.deskHasilTes {
+    font-size: 12px;
+    color: #555;
+}
+
+.hasilTesSkill {
+    font-size: 9PX;
+}
+.hasilTesSkill li {
+    margin-top: 5px;
+}
+.hasilTesSkill img {
+    margin-left: 30px;
+  }
+  
+  .container-pencarian{
+    margin-top: 40px;
+    width: auto;
+    height: 399px;
+    border: 1px solid black;
+  }
+
+.container-pencarian input {
+    background-color: white;
+    margin-top: 20px;
+}  
+
+.container-pencarian button {
+    margin-top: 20px;
+}
+
+::placeholder {
+    text-align: center;
+}
+
+
+
+@media (max-width: 1024px) {
+    .container-barOpsi {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+      padding: 15px;
+    }
+  
+    .tesMinatBar, .pelatihanBar, .pencariLowonganBar {
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 1543px) {
+    .container-barOpsi {
+      margin-left: 360px; 
+      width: calc(100% - 360px); 
+    }
+  }
+  
+  @media (max-width: 1280px) {
+    .container-barOpsi {
+      margin-left: 300px; 
+      width: calc(100% - 300px); 
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .container-barOpsi {
+      margin-left: 0; 
+      width: 100%; 
+    }
+  }
+
+
+  @media (max-width: 768px) {
+    .container-barOpsi {
+      grid-template-columns: 1fr;
+      gap: 10px;
+      padding: 10px;
+    }
+  
+    .tesMinatBar, .pelatihanBar, .pencariLowonganBar {
+      padding: 15px;
+      background-color: #f9f9f9;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+  
+    img {
+      width: 100%; 
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container-barOpsi {
+      padding: 5px;
+    }
+  
+    .tesMinatBar, .pelatihanBar, .pencariLowonganBar {
+      padding: 10px;
+      font-size: 14px;
+    }
+  
+    .tesMinatBar img, .pelatihanBar img, .pencariLowonganBar img {
+      width: 100%;
+      height: auto;
+    }
+  
+    button {
+      width: 100%;
+      font-size: 14px;
+      padding: 10px;
+    }
+  }

@@ -1,0 +1,204 @@
+
+
+.main-containers {
+    display: flex;
+    width: 1145px;
+    height: 100vh;
+    gap: 40px;
+    margin-left: 350px;
+    margin-top: 100px;
+}
+
+.left-content {
+    width: 635px;
+}
+
+.right-content {
+    width: 479px;
+}
+
+.upload-photo {
+    display: grid;
+    justify-content: center;
+    border: solid 1px black;
+    border-radius: 30px;
+    background: url(../imgProfile/backgroundProfile.png) repeat-y;
+}
+
+.photo {
+    display: grid;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.photo img {
+    height: 150px;
+    width: 150px;
+}
+
+.photo-desc * {
+    display: grid;
+    justify-content: center;
+}
+
+.upload-btn {
+    display: flex;
+    justify-content: center;
+    height: 31px;
+}
+
+.upload-btn button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9D9D9;
+    color: black;
+    width: 177px;
+    border: solid 1px black;
+}
+
+.save-btn {
+    display: grid;
+    justify-content: center;
+}
+
+.save-btn button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-color: #263D8F;
+    color: white;
+    width: 177px;
+    height: 31px;
+    border: solid 1px black;
+}
+
+.personal-info {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 30px;
+    border: solid 1px black;
+    border-radius: 30px;
+}
+
+.form input {
+    width: 100%;
+}
+
+.fullname-form {
+    background: url(../imgProfile/fullname.png) no-repeat scroll 10px 7px;
+    padding-left:30px;  
+}
+
+.phone-form {
+    background: url(../imgProfile/phone.png) no-repeat scroll 7px 7px;
+    padding-left:30px;  
+}
+
+.email-form {
+    background: url(../imgProfile/email.png) no-repeat scroll 7px 7px;
+    padding-left:30px;  
+}
+
+.occupation-form {
+    background: url(../imgProfile/occupation.png) no-repeat scroll 7px 7px;
+    padding-left:30px;  
+}
+
+.bio {
+    height: fit-content;
+    padding: 20px;
+    border: solid 1px black;
+    border-radius: 30px;
+}
+
+.bio input {
+    width: 100%;
+    height: 165px;
+}
+
+.interest {
+    margin-top: 40px;
+    padding: 20px;
+    border: solid 1px black;
+    border-radius: 30px;
+}
+
+.interest-lists {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.interest-list {
+    display: flex;
+    align-items: center;
+    height: 22px;
+    padding: 5px;
+    width: fit-content;
+    border-radius: 10px;
+    color: #263D8F;
+    background-color: #E8F0F7;
+}
+
+.interest-list img {
+    width: 15px;
+    height: 15px;
+}
+
+.interest-list p {
+    /* padding: 5px;
+    width: fit-content; */
+    /* background: url(../imgProfile/delete.png) no-repeat scroll 7px 7px; */
+    /* border-radius: 10px; */
+    /* color: #263D8F;
+    background-color: #E8F0F7; */
+}
+
+.interest-save-btn {
+    margin-top: 20px;
+    width: 444px;
+    height: 35px;
+}
+.interest-save-btn button {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    border: solid 1px black;
+}
+
+.social-media {
+    padding: 20px;
+    margin-top: 40px;
+    border: solid 1px black;
+    border-radius: 30px;
+}
+
+.twitter-form {
+    background: url(../imgProfile/x.png) no-repeat scroll 7px 7px;
+    padding-left:30px;  
+}
+
+.facebook-form {
+    background: url(../imgProfile/facebook.png) no-repeat scroll 7px 7px;
+    padding-left:30px;  
+}
+
+.linkedin-form {
+    background: url(../imgProfile/linkedin.png) no-repeat scroll 7px 7px;
+    padding-left:30px;  
+}
+
+input {
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 1px black;
+}
