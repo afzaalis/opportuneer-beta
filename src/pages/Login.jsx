@@ -25,7 +25,7 @@ export const Login = () => {
       data.append('password', password);
 
       try {
-        const response = await fetch('https://06c7-2404-8000-1024-164a-59f2-25a2-df16-dc69.ngrok-free.app/user/login', {
+        const response = await fetch('https://b0f3-103-233-100-228.ngrok-free.app/user/login', {
           method: 'POST',
           body: data,
         });
