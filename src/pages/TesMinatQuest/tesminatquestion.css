@@ -1,0 +1,25 @@
+.tesminat-question-container .option-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.tesminat-question-container .option-item input {
+  margin-right: 10px;
+}
+
+.tesminat-question-container .question-block p {
+  margin-bottom: 10px;
+}
+
+.tesminat-question-container .options-container {
+  margin-left: 20px;
+}
+
+  
+  .question-container button {
+    background: linear-gradient(90deg, #4066EF 0%, #253A89 100%);
+    color: white;
+    display: flex;
+    margin: auto;
+  }

@@ -1,0 +1,45 @@
+* {
+    font-family: Poppins;
+    color: black;
+    box-sizing: border-box;
+  }
+  
+  .judul {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .judul img {
+    width: 186px;
+    height: auto; 
+  }
+  
+  .judul h1 {
+    font-size: 39px;
+    font-weight: 400;
+    line-height: 46.8px;
+    margin-top: 0;
+  }
+
+  .container-verified {
+    width: 1071px;
+    height: 565px;
+    top: 276px;
+    left: 328px;
+    border-radius: 30px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+  }
+
+
+  .container-verified button {
+    box-shadow: 0px 4px 4px 0px #00000040;
+    background-color: #4066F0;
+    color: white;
+    margin-top: 20px;
+    
+  } 

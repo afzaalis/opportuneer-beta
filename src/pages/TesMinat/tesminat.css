@@ -1,0 +1,9 @@
+
+.tombol-mulai button {
+  background: linear-gradient(90deg, #4066EF 0%, #253A89 100%);
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  color: white;
+  width: 150px;
+}
