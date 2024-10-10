@@ -22,7 +22,7 @@ Berikut adalah progress pengembangan fitur-fitur dalam proyek ini:
 |-----------------------|-----------------|--------------------------------------|
 | Login                 | Selesai         | bisa |
 | Sign Up               | Selesai         |     bisa    |
-| Dashboard             | Selesai         |       |
+| Dashboard             | Selesai         |  bisa     |
 | Verify Code Email     | Selesai         |  |
 | Logout                | On Progress     |  |
 | Side Bar              | Selesai     | |
