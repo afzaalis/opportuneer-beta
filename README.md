@@ -33,9 +33,9 @@ Berikut adalah progress pengembangan fitur-fitur dalam proyek ini:
 | Peluang Karir         | selesai     |        |
 
 # POIN FE
-<li>Pembagian Komponen:1.Struktur Komponen,2.Modularitas</li>
-<li>Penggunaan React Hooks</li>
-<li>Penggunaan State Management</li>
-<li>API Calls dan Optimalasi</li>
+<li>Pembagian Komponen:1.Struktur Komponen,2.Modularitas ✅</li>
+<li>Penggunaan React Hooks ✅</li>
+<li>Penggunaan State Management ✅</li>
+<li>API Calls dan Optimalasi ✅</li>
 
 
