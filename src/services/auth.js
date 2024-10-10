@@ -25,14 +25,18 @@ export const signUpUser = async (formData) => {
 };
 
 export const loginUser = async (email, password) => {
-  const data = new FormData();
-  data.append('email', email);
-  data.append('password', password);
+  const data = {
+    email,
+    password,
+  };
 
   try {
     const response = await fetch(`${API_URL}/user/login`, {
       method: 'POST',
-      body: data,
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(data),
     });
 
     if (!response.ok) {
@@ -40,8 +44,14 @@ export const loginUser = async (email, password) => {
       throw new Error(errorData.message || 'Login failed');
     }
 
-    return response.json();
+    const result = await response.json();
+
+    localStorage.setItem('user', JSON.stringify(result.user));
+    localStorage.setItem('token', result.token);
+
+    return result;
   } catch (error) {
     throw error;
   }
 };
+
